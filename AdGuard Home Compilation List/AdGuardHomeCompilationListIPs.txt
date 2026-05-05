@@ -3,7 +3,7 @@
 ! Expires: 14 days
 ! Licence: In accordance with the Dandelicence, the borrowed entries are considered to have been changed and reduced enough from their original lists, that they're counted as transformative work, meaning that creditation and seperate paragraphs are not necessary unless one of the lists' makers were to ask for such.
 ! Description: This was made as a proof-of-concept to see if the IP-based entries of major adblock lists, could be used to create an IP adblocker list for IP blockers, despite how IP lists are normally only meant to block malware, E-mail spam, or port scanners.
-! Version: 13August2025v1-Alpha
+! Version: 05May2026v1-Alpha
 164.132.74.156
 23.109.87.170
 37.1.213.100
@@ -165,15 +165,15 @@
 51.178.195.171
 51.195.115.102
 51.89.115.13
-35.224.227.218
 35.238.205.163
-!?id=*&p1=*&p2=*&p3=*&p4=
-!/^https?:\/\/[a-z0-9]{6,20}\.[a-z]{6,20}\.co\.in\//,to=co.in
 88.208.46.222
 103.224.182.210
 188.72.219.36
 117.254.84.212:3000
 109.123.233.251
+107.148.45.21
+198.23.198.110
+185.216.143.121
 154.199.255.184
 193.200.64.30
 193.200.64.31
