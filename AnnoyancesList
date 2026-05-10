@@ -1,5 +1,5 @@
 ! Title: ⚙️ Dandelion Sprout's Annoyances List
-! Version: 29April2026v1-Compilation
+! Version: 10May2026v1-Compilation
 ! Expires: 18 hours
 ! Description: This list is made in the style of Fanboy's and AdGuard's annoyances lists, to show that I can make a just as good such annoyances list as them. It combines many of my proudest and most frequently maintained international lists, as a proof-of-concept and as a curated list for simplicity's sake.
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#-english
@@ -502,3 +502,16 @@ youtube.com##+js(json-edit, ..adaptiveFormats.*[?.audioTrack.isAutoDubbed])
 youtube.com##+js(json-edit-xhr-response, ..adaptiveFormats.*[?.audioTrack.isAutoDubbed], propsToMatch, /youtubei)
 youtube.com##+js(json-edit-fetch-response, ..adaptiveFormats.*[?.audioTrack.isAutoDubbed], propsToMatch, /youtubei)
 !!!youtube.com##+js(rpnt, script, (function serverContract(), window.ytInitialPlayerResponse=JSON.parse(JSON.stringify(window.ytInitialPlayerResponse));(function serverContract(), sedCount, 1) (https://github.com/DandelionSprout/adfilt/issues/1240)
+
+! There's probably a reason why the domain has clogged up urlscanIO recently (Early May 2026)
+!#if ext_ublock
+!#if !env_legacy
+||dns-speed.tail-f.de^$doc,reason="Contacts an absolutely ungodly amount of trackers."
+||speed.tail-f.de^$doc,reason="Contacts an absolutely ungodly amount of trackers."
+!#endif
+!#endif
+
+!#if !ext_ublock
+||dns-speed.tail-f.de^$doc,domain~=contacts_an_absolutely_ungodly_amount_of_trackers.*
+||speed.tail-f.de^$doc,domain~=contacts_an_absolutely_ungodly_amount_of_trackers.*
+!#endif
