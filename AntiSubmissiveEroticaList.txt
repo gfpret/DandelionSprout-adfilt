@@ -14,10 +14,10 @@
 
 ! The worst ship ever invented in history by some margin
 !#if !env_mobile
-pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=Cedfia i])
-pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=Sedfia i])
-pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=セドフィア])
-pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=Sofia i][alt*=Cedric i])
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=Cedfia i]):remove()
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=Sedfia i]):remove()
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=セドフィア]):remove()
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=Sofia i][alt*=Cedric i]):remove()
 !#endif
 !#if env_mobile
 pixiv.net##.works-item:has(img[alt*=Cedfia i])
