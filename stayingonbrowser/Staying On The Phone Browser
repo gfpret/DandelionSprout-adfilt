@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 21March2026v1
+! Version: 16May2026v1
 ! Title: 📱 Staying On The Phone Browser
 ! Expires: 10 days
 ! Description: Created as a proof of concept, and for the benefit of people who really like their phone's web browsers and who are less keen on using various apps.
@@ -543,6 +543,9 @@ instagram.com##div[class]:first-of-type:not(.html-div) + div.html-div:has(+ div:
 ##div[class*=inlineAppUpsell-]
 ! live•peppes•no (03/03/2026)
 ##.app-branding-card:not(html,body,:empty)
+! An SNCF Connect E-mail when viewed in Thunderbird
+/pushApp/pushGooglePlay.png^
+/pushApp/pushAppStore.png^
 
 ! Below are entries that I borrowed from "I Don't Want Your App", which was maintained by https://github.com/lassekongo83 at https://raw.githubusercontent.com/lassekongo83/Frellwits-filter-lists/master/i-dont-want-your-app.txt, and which was licenced as GPLv3
 ! Generic
