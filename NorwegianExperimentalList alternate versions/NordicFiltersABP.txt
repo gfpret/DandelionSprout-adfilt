@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 3.13]
 ! Title: 🏔️ Dandelion Sprouts vestnordiske filtre for ryddigere nettsider (for AdBlock og Adblock Plus)
 ! Title 🇬🇧: Dandelion Sprout's West Nordic filters for tidier websites (for AdBlock and Adblock Plus)
-! Version: 020720261
+! Version: 250820261
 ! Expires: 18 hours
 ! Lisens / Licence: https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
@@ -620,6 +620,7 @@ maritimedanmark.dk##.banner-hidden:has(>div[class*=banner-wrapper])
 maritimedanmark.dk##.banner-hidden:has([class*=ad-wrapper])
 bilnorge.no###artikkel300x250right
 viaplay.no,viaplay.dk,viaplay.is##.interaction-block
+finans.dk##div[id^=topscroll-]
 gamer.no##.feed--commercial
 golferen.no##.os_big_board_box
 hockeymagasinet.dk##.ss-left-sky-reclam
@@ -1452,10 +1453,8 @@ kulturplot.no,dagensperspektiv.no,velferd.no###main > .small-12:nth-of-type(1)
 ||helios.*.no^
 ||vefbordar.*.is^$third-party
 ||vevlysingar.*.com^$third-party
-||ad.shareholders.dk^
 ||adext.inkclub.com^
 ||adnordics.com^$third-party
-||adserver.xh.no^$third-party
 ||adservice.com^$third-party
 ||adservicemedia.dk^$third-party
 ||advert.*.no^
@@ -1463,7 +1462,6 @@ kulturplot.no,dagensperspektiv.no,velferd.no###main > .small-12:nth-of-type(1)
 ||banner.3loops.com^
 ||betterbanners.org^$third-party
 ||bilborsen.webannonse.no^
-||boligkanalen-maestro-new.azurewebsites.net^$image
 ||cluster.chart.dk^$third-party
 ||delivered-by-madington.com^$third-party
 ||easy-ad.no^$third-party
@@ -1476,7 +1474,6 @@ kulturplot.no,dagensperspektiv.no,velferd.no###main > .small-12:nth-of-type(1)
 ||matriell.dm-storage.no^$image,third-party
 ||ndstage.wpengine.com^$image
 ||openad.visir.is^$third-party
-||samfilm.codelab.is^$third-party
 ||sannsyn.com^$third-party
 ||static.airserve.net^$third-party
 ||tankeogteknikk.no^$third-party
@@ -1907,6 +1904,7 @@ _1170x400.$domain=eyjafrettir.is,image,~third-party
 ||travelnews.no/wp-content/uploads/20*400x400.gif^
 ||travelnews.no/wp-content/uploads/20*_Banner_*.gif^
 ||travelnews.no/wp-content/uploads/202*/hertz.png^
+||tronderporten.no/wp-content/uploads/20*/1450mmx350mm$image
 ! — — — — — — —
 ! 🇳🇴：Filtjener- eller nettstedsspesifikke oppføringer med kilder
 ! 🇳🇴🏞：Filtenar- eller nettstadsspesifikke oppføringar med kildar
@@ -2500,10 +2498,13 @@ telenor.no##.global-overlay-background
 @@://haslundalsted.dk^$~third-party
 @@://mettelindberg.dk^$~third-party
 @@://nhn.dk^$~third-party
-! ★★★ Caused by «AdGuard Cookie Notices filter» ★★★
+! ★★★ Forårsaket av / Caused by «AdGuard Cookie Notices filter» ★★★
 @@||glassoginterior.no/css/modules/consent.css^
+norge.no#@##cookie-dialog
 ! Made most thumbnails blurry (08/03/2026)
 @@://consent.cookiebot.com^$script,domain=politiken.dk
+! https://github.com/AdguardTeam/AdguardFilters/issues/235302 (10/07/2026)
+tronderporten.no#@##cmplz-cookiebanner-container
 ! ★★★ 🇳🇴：Forårsaket av «AdGuards spionvarefilter» ★★★
 ! ★★★ 🇬🇧：Caused by «AdGuard Tracking Protection Filter» ★★★
 ! https://github.com/AdguardTeam/AdguardFilters/issues/209205
@@ -2712,7 +2713,6 @@ triplx.dk##.aff-inner-col
 ||ultimate-tech-products.myshopify.com^
 ||vg.no.
 ||vipps-sikkerhet.
-||norskposten.com^
 ||oslo-tannlegene.no^
 ||y6.no^
 ||y6.no^$popup
@@ -2721,14 +2721,8 @@ triplx.dk##.aff-inner-col
 ||bankid-sperret.
 ||bankid-sperret.$popup
 ||srilanka.no^
-||logg-inn.online^
-||logg-inn.online^$popup
-||nyhetsnett.no^
-||nyhetsnett.no^$popup
 ||comoutlook.com^$domain=~no
 ||comoutlook.com^$popup,domain=~no
-||onlinemailmicrosotfvalidation.com^$domain=~no
-||onlinemailmicrosotfvalidation.com^$popup,domain=~no
 ||skatteetate-n.$domain=~no
 ||skatteetate-n.$popup,domain=~no
 ||skatteetateennoo.$domain=~no
@@ -2753,40 +2747,16 @@ triplx.dk##.aff-inner-col
 ||skatteetaten-refusjon.$popup,domain=~no
 ||skatteetaten-skatteetaten.$domain=~no
 ||skatteetaten-skatteetaten.$popup,domain=~no
-||skatteetaten-support.com^$domain=~no
-||skatteetaten-support.com^$popup,domain=~no
 ||skatteetaten-tax.$domain=~no
 ||skatteetaten-tax.$popup,domain=~no
 ||skatteetaten-track.$domain=~no
 ||skatteetaten-track.$popup,domain=~no
-||skatteetaten.app^$domain=~no
-||skatteetaten.app^$popup,domain=~no
-||skatteetaten.ceo^$domain=~no
-||skatteetaten.ceo^$popup,domain=~no
-||skatteetaten.cfd^$domain=~no
-||skatteetaten.cfd^$popup,domain=~no
-||skatteetaten.do^$domain=~no
-||skatteetaten.do^$popup,domain=~no
 ||skatteetaten.info.gf^$domain=~no
 ||skatteetaten.info.gf^$popup,domain=~no
-||skatteetaten.online^$domain=~no
-||skatteetaten.online^$popup,domain=~no
-||skatteetaten.pages.dev^$domain=~no
-||skatteetaten.pages.dev^$popup,domain=~no
-||skatteetaten.rianicefe.com^$domain=~no
-||skatteetaten.rianicefe.com^$popup,domain=~no
 ||skatteetaten.sharefile.eu^$domain=~no
 ||skatteetaten.sharefile.eu^$popup,domain=~no
-||skatteetaten.site^$domain=~no
-||skatteetaten.site^$popup,domain=~no
-||skatteetaten.support^$domain=~no
-||skatteetaten.support^$popup,domain=~no
-||skatteetaten.support.do^$domain=~no
-||skatteetaten.support.do^$popup,domain=~no
 ||skatteetaten.sytes.net^$domain=~no
 ||skatteetaten.sytes.net^$popup,domain=~no
-||skatteetaten.top^$domain=~no
-||skatteetaten.top^$popup,domain=~no
 ||skatteetatenadministration.$domain=~no
 ||skatteetatenadministration.$popup,domain=~no
 ||skatteetatenaltinninformasjon.$domain=~no
@@ -2829,8 +2799,6 @@ triplx.dk##.aff-inner-col
 ||skatteetatentracks.$popup,domain=~no
 ||skatteetatn-person.$domain=~no
 ||skatteetatn-person.$popup,domain=~no
-||skatteetatten.com^$domain=~no
-||skatteetatten.com^$popup,domain=~no
 /?finn.no/login
 ! 🇬🇧：Copied over from «Dandelion Sprout's Anti-Malware List»
 ||fredfiber.no^
@@ -2846,28 +2814,8 @@ triplx.dk##.aff-inner-col
 ||p-stn.net^
 ||p-stn.net^$popup
 ! Fake Gymshark webshops
-||altrasgshoes.com^
-||altrasgshoes.com^$popup
-||altrask.com^
-||altrask.com^$popup
-||gantnorge.com^
-||gantnorge.com^$popup
-||gymshark-no.com^
-||gymshark-no.com^$popup
-||xn--gymsharkklrnorge-3ob.com^
-||xn--gymsharkklrnorge-3ob.com^$popup
-||hilfigerdenmark.com^
-||hilfigerdenmark.com^$popup
-||louboutinnorge.com^
-||louboutinnorge.com^$popup
-||montec-danmark.com^
-||montec-danmark.com^$popup
 ||umbrodk.com^
 ||umbrodk.com^$popup
-||umbrono.com^
-||umbrono.com^$popup
-||underarmourdk.com^
-||underarmourdk.com^$popup
 *danmarks.com^
 *norgno.com^
 *norges.com^
@@ -2885,20 +2833,8 @@ triplx.dk##.aff-inner-col
 ://212.27.60.108^
 ://212.27.60.108^$popup
 
-||790northsierrabonita.com^
-||790northsierrabonita.com^$popup
 ||dnnbcorporat*.mine.nu^
 ||dnnbcorporat*.mine.nu^$popup
-||eltlnorsgogle.is-a-cpa.com^
-||eltlnorsgogle.is-a-cpa.com^$popup
-||pestseminars.com^
-||pestseminars.com^$popup
-||premosupplements.com^
-||premosupplements.com^$popup
-||printablemagic.com^
-||printablemagic.com^$popup
-||rumendia.com^
-||rumendia.com^$popup
 ://94.156.65.204^
 ://94.156.65.204^$popup
 
@@ -2976,8 +2912,6 @@ triplx.dk##.aff-inner-col
 ||telenors.*.cx^
 ! https://www•datahjelperne•no/eurocard-falsk-epost-faktura/
 ||valspe.com.br^
-! https://www•datahjelperne•no/eika-falsk-epost-svindel/
-||tekuon.com^
 ! https://www•nrk•no/norge/1.15235615
 -sparebank1.*.net^
 ! https://www•datahjelperne•no/er-det-deg-facebook-video-spam/
@@ -2995,9 +2929,6 @@ triplx.dk##.aff-inner-col
 ||superbinvest.com^
 ||aktienboard.com^
 ||minklubshop.dk/dk^
-! https://www•nrk•no/vestfoldogtelemark/1.15750360
-||dundeehills.group^
-||dundeehills.group^$popup
 ! https://www•adressa•no/pluss/nyheter/2021/12/04/Posten-advarer-Vi-sender-ikke-slike-tekstmeldinger-24894483.ece
 ||ozarkvillage.net^
 ||ozarkvillage.net^$popup
@@ -3020,35 +2951,17 @@ triplx.dk##.aff-inner-col
 -norge.co.no^$popup
 *skodanmark.com^
 *skodanmark.com^$popup
-||haglofstilbud.com^
-||haglofstilbud.com^$popup
-||off-whitenorge.com^
-||off-whitenorge.com^$popup
 ||oofosnorgeoutlet.com^
 ||oofosnorgeoutlet.com^$popup
-||eccoskonorge.com^
-||eccoskonorge.com^$popup
-||clarksskonorge.com^
-||clarksskonorge.com^$popup
-||off-whitedanmark.com^
-||off-whitedanmark.com^$popup
 ||clarks-dk.com^
 ||clarks-dk.com^$popup
 ! https://github.com/DandelionSprout/adfilt/issues/748
-||vanssnorge.com^
-||vanssnorge.com^$popup
 ||hokaonenorge.com^
 ||hokaonenorge.com^$popup
 ||hokalopesko.
 ||hokalopesko.$popup
-||hokanorgeno.com^
-||hokanorgeno.com^$popup
 ||hunter-danmark.com^
 ||hunter-danmark.com^$popup
-||saucony-dk.com^
-||saucony-dk.com^$popup
-||hokaskooutlet.co.no^
-||hokaskooutlet.co.no^$popup
 /^(https?://)?hokaoneone[a-z0-9].*$/
 /^(https?://)?hokaoneone[a-z0-9].*$/$popup
 *norgeskosalg.
@@ -3076,14 +2989,8 @@ triplx.dk##.aff-inner-col
 ||sitey.me^
 ! https://www•tv2•no/nyheter/innenriks/olav-thon-misbrukes-i-svindelannonser-ble-feilaktig-meldt-dod/15818647/
 ! https://www•tv2•no/nyheter/innenriks/advarer-ikke-klikk-pa-lenken/16040614/
-||dhl-trackng.com^
-||dhl-trackng.com^$popup
 ||dnb-oppdater.
 ||dnb-oppdater.$popup
-||linkednordersalenavigate.com^
-||linkednordersalenavigate.com^$popup
-||start-myaltinn.com^
-||start-myaltinn.com^$popup
 ||no-forny*$all,domain=~no
 ||my-altinn*$all,domain=~no
 ||no-oppdatere.
@@ -3132,16 +3039,12 @@ triplx.dk##.aff-inner-col
 ||betzykrisesenter.no^
 ||citra2010oslo.no^
 ||digiter.no^
-||easydisplay.no^
 ||kjaerra.no^
 ||kontrast1.no^
 ||norskmatkultur.no^
-||norskoffroadteknikk.no^
 ||nyematoghelse.no^
 ||securmarksykkel.no^
-||thecoolgirl.no^
 ||topshineauto.no^
-||vossblues.no^
 ||yttersiden.no^
 ! https://github.com/DandelionSprout/adfilt/discussions/932#discussioncomment-7873648
 ||monetrizer*.
@@ -3154,14 +3057,10 @@ triplx.dk##.aff-inner-col
 ||acc-inf.com^$popup
 ||acc-ntfix.com^
 ||acc-ntfix.com^$popup
-||aib-loginsecure.com^
-||aib-loginsecure.com^$popup
 ||be-sms.com^
 ||be-sms.com^$popup
 ||connection-info.com^
 ||connection-info.com^$popup
-||directdigital-services.com^
-||directdigital-services.com^$popup
 ||disneyplus-tv.com^
 ||disneyplus-tv.com^$popup
 ||earnifi-claiming.com^
@@ -3170,12 +3069,8 @@ triplx.dk##.aff-inner-col
 ||flix-area.com^$popup
 ||flix-request.com^
 ||flix-request.com^$popup
-||levering-myups.com^
-||levering-myups.com^$popup
 ||lnfoskonto.com^
 ||lnfoskonto.com^$popup
-||mitld-forholdsregler.com^
-||mitld-forholdsregler.com^$popup
 ||my-subscriptions.net^
 ||my-subscriptions.net^$popup
 ||myups-pakket.com^
@@ -3186,18 +3081,10 @@ triplx.dk##.aff-inner-col
 ||netfx-acc.com^$popup
 ||ney-acc.com^
 ||ney-acc.com^$popup
-||nflix-management.com^
-||nflix-management.com^$popup
-||nflix-reactivacion.com^
-||nflix-reactivacion.com^$popup
 ||ntfx-acc.com^
 ||ntfx-acc.com^$popup
 ||payement-renew.me^
 ||payement-renew.me^$popup
-||santandersecurept.com^
-||santandersecurept.com^$popup
-||spotfy-regulation.com^
-||spotfy-regulation.com^$popup
 ||trackingfindups.com^
 ||trackingfindups.com^$popup
 ||trackingpackage.express^
@@ -3206,8 +3093,6 @@ triplx.dk##.aff-inner-col
 ||ups-packaging.delivery^$popup
 ||upsbezahlung.com^
 ||upsbezahlung.com^$popup
-||usaa-verify.com^
-||usaa-verify.com^$popup
 ://193.143.1.45^
 ://193.143.1.45^$popup
 
@@ -3219,7 +3104,6 @@ triplx.dk##.aff-inner-col
 
 ://193.143.1.
 ||adidasko.com^
-||daradis.com^
 ||gsport.com^
 ||hernoclothing.com^
 ||linkshe.com^
@@ -3229,7 +3113,6 @@ triplx.dk##.aff-inner-col
 ||oflike.com^
 ||pjs.outlet.com^
 ||popeurope.com^
-||um-bs.com^
 ://old.sermitsiaq.ag^
 ://robot.ekstrabladet.dk^
 ||xss.my.id^$third-party
@@ -3250,7 +3133,6 @@ triplx.dk##.aff-inner-col
 ||storage.googleapis.com/absales^$popup
 ||healtheweb.co.uk^
 ||healtheweb.co.uk^$popup
-||appearspacex.de^
 ||195-242-152-122.static.hvvc.us^
 ||195.242.152.122^
 ||195.242.152.122^$popup
@@ -3258,9 +3140,6 @@ triplx.dk##.aff-inner-col
 ||statautos.com^$popup
 /noo/taxx/*
 
-! https://www•tv2•no/nyheter/forbruker/sjokksvar-pa-epost-harreisende/17805239/
-! https://www•tv2•no/nyheter/forbruker/tenkte-shit-na-har-jeg-blitt-lurt/17474448/
-||takstskolen.no^
 ! https://www•tv2•no/nyheter/innenriks/slar-svindelalarm-trykker-pa-de-riktige-knappene/17975382/
 ||minid-portalen.$domain=~no
 ||minid-portalen.$popup,domain=~no
@@ -3268,8 +3147,6 @@ triplx.dk##.aff-inner-col
 ||idportal.vercel.app^$popup
 ||kredinor-portal.$domain=~no
 ||kredinor-portal.$popup,domain=~no
-||minskat-no.com^
-||minskat-no.com^$popup
 ||myskatteetaten.$domain=~no
 ||myskatteetaten.$popup,domain=~no
 ||nav-innlogging-portal.$domain=~no
@@ -3286,8 +3163,6 @@ triplx.dk##.aff-inner-col
 ||skatteetatenof.$popup,domain=~no
 ||skattrefusjono.$domain=~no
 ||skattrefusjono.$popup,domain=~no
-||updatesysteme.com^
-||updatesysteme.com^$popup
 ||wpenginepowered.com/refusjon*
 ||wpenginepowered.com/Skatteetaten^
 ||wpenginepowered.com/Skatteetaten^$popup
@@ -3320,44 +3195,22 @@ triplx.dk##.aff-inner-col
 
 
 ! https://www•dr•dk/nyheder/seneste/sundhed-dk-advarer-mod-sms-er-og-falsk-hjemmeside (30/09/2025)
-||sundhed-info.com^
-||sundhed-info.com^$popup
-||sundhedinfo.com^
-||sundhedinfo.com^$popup
-||info-sundhed.com^
-||info-sundhed.com^$popup
-||infopostdk.com^
-||infopostdk.com^$popup
 ||158.94.209.89^
 ||158.94.209.89^$popup
 
 ! Inspired by https://nyheder•tv2•dk/samfund/2025-10-23-sundheddk-faar-hundreder-af-henvendelser-om-falske-smser
-||borger-sundhed.com^
-||borger-sundhed.com^$popup
 ||dlssneykonto.com^
 ||dlssneykonto.com^$popup
 ||infos-sundhed.com^
 ||infos-sundhed.com^$popup
-||infosundhed.com^
-||infosundhed.com^$popup
-||infosundheds.com^
-||infosundheds.com^$popup
-||sikkerklientopdatering.com^
-||sikkerklientopdatering.com^$popup
-||skat-skts-dk.com^
-||skat-skts-dk.com^$popup
 ||sporpakke-dk.com^
 ||sporpakke-dk.com^$popup
 ||sundhed-infos.com^
 ||sundhed-infos.com^$popup
 ||sundhed-skort.com^
 ||sundhed-skort.com^$popup
-||sundhed-web.com^
-||sundhed-web.com^$popup
 ||dk-fornysundhed.com^
 ||dk-fornysundhed.com^$popup
-||dk-sundhed.com^
-||dk-sundhed.com^$popup
 ||dksundhed.com^
 ||dksundhed.com^$popup
 ||sundhed-infodk.com^
@@ -3396,8 +3249,6 @@ triplx.dk##.aff-inner-col
 ||finn-no-n.$popup
 ||finnobrukerlogg.
 ||finnobrukerlogg.$popup
-||helse-norge.com^
-||helse-norge.com^$popup
 ||minside-altinn.
 /^https://autopass\.\d{6}\.com(/.*)?$/
 ://147.45.198.199^
@@ -3410,8 +3261,6 @@ triplx.dk##.aff-inner-col
 
 
 ! https://www•tjekdet•dk/fup-og-spam/pas-paa-falske-beskeder-fra-dao-rammer-danmark
-||as-dao.icu^
-||as-dao.icu^$popup
 ||dao-as.cc^
 ||dao-as.cc^$popup
 ||dao-as.com^
@@ -3428,28 +3277,14 @@ triplx.dk##.aff-inner-col
 ||dao-asdk.cc^$popup
 ||dao-asdk.vip^
 ||dao-asdk.vip^$popup
-||dao-ase.cc^
-||dao-ase.cc^$popup
 ||dao-ase.vip^
 ||dao-ase.vip^$popup
-||dao-asen.bond^
-||dao-asen.bond^$popup
-||dao-asi.cc^
-||dao-asi.cc^$popup
 ||dao-asi.vip^
 ||dao-asi.vip^$popup
-||dao-asiiv.icu^
-||dao-asiiv.icu^$popup
-||dao-asioiiv.icu^
-||dao-asioiiv.icu^$popup
 ||dao-asl.vip^
 ||dao-asl.vip^$popup
 ||dao-aso.cc^
 ||dao-aso.cc^$popup
-||dao-asoi.icu^
-||dao-asoi.icu^$popup
-||dao-asoiiv.icu^
-||dao-asoiiv.icu^$popup
 ||dao-asr.cc^
 ||dao-asr.cc^$popup
 ||dao-asr.vip^
@@ -3458,50 +3293,10 @@ triplx.dk##.aff-inner-col
 ||dao-ass.cc^$popup
 ||dao-ass.vip^
 ||dao-ass.vip^$popup
-||dao-assion.icu^
-||dao-assion.icu^$popup
-||dao-asuui.icu^
-||dao-asuui.icu^$popup
-||dao-asvisu.icu^
-||dao-asvisu.icu^$popup
-||dao-post.icu^
-||dao-post.icu^$popup
-||daoao.icu^
-||daoao.icu^$popup
-||daoas-en.bond^
-||daoas-en.bond^$popup
-||daoasa.cyou^
-||daoasa.cyou^$popup
-||daoasa.sbs^
-||daoasa.sbs^$popup
-||daoiiox.icu^
-||daoiiox.icu^$popup
-||daoios.icu^
-||daoios.icu^$popup
-||daoipost.icu^
-||daoipost.icu^$popup
-||daonevt.com^
-||daonevt.com^$popup
-||daoosi.icu^
-||daoosi.icu^$popup
-||daopakke.sbs^
-||daopakke.sbs^$popup
-||daopst.icu^
-||daopst.icu^$popup
-||daosa.cyou^
-||daosa.cyou^$popup
-||daosa.shop^
-||daosa.shop^$popup
-||daosviz.com^
-||daosviz.com^$popup
 ||daoteams.com^
 ||daoteams.com^$popup
-||daovisx.com^
-||daovisx.com^$popup
 ||daoxo.bond^
 ||daoxo.bond^$popup
-||dpd-sio.icu^
-||dpd-sio.icu^$popup
 ||pakke.click^
 ||pakke.click^$popup
 ||postuin.bond^
@@ -3539,16 +3334,9 @@ triplx.dk##.aff-inner-col
 
 ! 🇬🇧：Old domains stolen by casino sites
 ||informationer.nu^
-||cphspaogwellness.dk^
 ||webavisen.gl^
 
 ! 🇬🇧：Various postal credential fraud syndicates
-||norgeposten.today^
-||norgeposten.today^$popup
-||pakkeposten.today^
-||pakkeposten.today^$popup
-||post-dk.cfd^
-||post-dk.cfd^$popup
 ||post-nord-levering.
 ||post-nord-levering.$popup
 ||post-nord-receiving.
@@ -3557,36 +3345,14 @@ triplx.dk##.aff-inner-col
 ||posten-nno.$popup
 ||posten-tracks.
 ||posten-tracks.$popup
-||postendk.lol^
-||postendk.lol^$popup
-||postendsk.lat^
-||postendsk.lat^$popup
 ||postenn-no.
 ||postenn-no.$popup
-||postennorge.today^
-||postennorge.today^$popup
-||postenpakke.today^
-||postenpakke.today^$popup
-||postenserves.today^
-||postenserves.today^$popup
-||postenspor.today^
-||postenspor.today^$popup
-||postnord-24.site^
-||postnord-24.site^$popup
 ||postnord-all.
 ||postnord-all.$popup
 ||postnord-confirmation.
 ||postnord-confirmation.$popup
 ||postnord-delay.
 ||postnord-delay.$popup
-||postnord-eco.buzz^
-||postnord-eco.buzz^$popup
-||postnord-eco.cfd^
-||postnord-eco.cfd^$popup
-||postnord-eco.sbs^
-||postnord-eco.sbs^$popup
-||postnord-eco.xyz^
-||postnord-eco.xyz^$popup
 ||postnord-order-
 ||postnord-order-$popup
 ||postnord-paket.
@@ -3605,22 +3371,16 @@ triplx.dk##.aff-inner-col
 ||postnord-tk.$popup
 ||postnord-tracks.
 ||postnord-tracks.$popup
-||postnord-update.help^
-||postnord-update.help^$popup
 ||postnorde-swe.
 ||postnorde-swe.$popup
 ||postnordexpress.
 ||postnordexpress.$popup
 ||postnordexpressdelivery-
 ||postnordexpressdelivery-$popup
-||postnordse.asia^
-||postnordse.asia^$popup
 ||postnordspara.
 ||postnordspara.$popup
 ||postnorg-dk*
 ||postnorg-dk*$popup
-||sporposten.today^
-||sporposten.today^$popup
 ||43.100.125.58^
 ||43.100.125.58^$popup
 ||43.159.140.215^
@@ -3637,22 +3397,10 @@ triplx.dk##.aff-inner-col
 ||154.223.16.232^$popup
 ||196.251.85.197^
 ||196.251.85.197^$popup
-||dkdk.shop^
-||dkdk.shop^$popup
-||noapp.sbs^
-||noapp.sbs^$popup
 ||nono.qpon^
 ||nono.qpon^$popup
-||postnorddk.vip^
-||postnorddk.vip^$popup
-||tnord.click^
-||tnord.click^$popup
 ||tnord.qpon^
 ||tnord.qpon^$popup
-||tnord.sbs^
-||tnord.sbs^$popup
-||tnordh.shop^
-||tnordh.shop^$popup
 
 
 

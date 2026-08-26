@@ -1,6 +1,6 @@
 ﻿﻿! Title: 🏔️ Dandelion Sprouts nordiske filtre for ryddigere nettsider (for Privoxy)
 # Title 🇬🇧: Dandelion Sprout's Nordic filters for tidier websites (for Privoxy)
-# Last modified: 02July2026v1-Deprecated
+# Last modified: 25August2026v1-Deprecated
 # Lisens / Licence: https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
 # Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 # 🇳🇴：Denne listen dekker nettsteder for Norge, Danmark, Island, Færøyene, Grønland, Schleswig-Holsteins danske minoritet, og samebefolkningen. For mere informasjon, detaljer, hjelpemidler, og andre lister jeg har laget, gå til https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#norsk
@@ -48,10 +48,8 @@ banner.*.no/
 helios.*.no/
 vefbordar.*.is/
 vevlysingar.*.com/
-ad.shareholders.dk/
 adext.inkclub.com/
 .adnordics.com/
-adserver.xh.no/
 .adservice.com/
 .adservicemedia.dk/
 advert.*.no/
@@ -59,7 +57,6 @@ advertisement.*.no/
 banner.3loops.com/
 .betterbanners.org/
 bilborsen.webannonse.no/
-boligkanalen-maestro-new.azurewebsites.net/
 cluster.chart.dk/
 .delivered-by-madington.com/
 .easy-ad.no/
@@ -72,7 +69,6 @@ kynning.olis.is/
 matriell.dm-storage.no/
 ndstage.wpengine.com/
 openad.visir.is/
-samfilm.codelab.is/
 .sannsyn.com/
 static.airserve.net/
 .tankeogteknikk.no/
@@ -696,6 +692,8 @@ www-presse-fotos-dk.filesusr.com/
 .travelnews.no/wp-content/uploads/20*_Banner_*.gif
 {+block}
 .travelnews.no/wp-content/uploads/202*/hertz.png
+{+block}
+.tronderporten.no/wp-content/uploads/20*/1450mmx350mm
 # — — — — — — —
 # 🇳🇴：Filtjener- eller nettstedsspesifikke oppføringer med kilder
 # 🇳🇴🏞：Filtenar- eller nettstadsspesifikke oppføringar med kildar
@@ -1052,10 +1050,11 @@ aas.*.no/a/
 .ad.amediakreativ.no/widgets/stillingskarusell
 # ★★★ Caused by «Peter Lowe's Ad and tracking server list» ★★★
 # ★★★ Caused by «Dan Pollock's hosts file» ★★★
-# ★★★ Caused by «AdGuard Cookie Notices filter» ★★★
+# ★★★ Forårsaket av / Caused by «AdGuard Cookie Notices filter» ★★★
 {-block}
 .glassoginterior.no/css/modules/consent.css
 # Made most thumbnails blurry (08/03/2026)
+{+block{https://github.com/AdguardTeam/AdguardFilters/issues/235302 (10/07/2026)}}
 # ★★★ 🇳🇴：Forårsaket av «AdGuards spionvarefilter» ★★★
 # ★★★ 🇬🇧：Caused by «AdGuard Tracking Protection Filter» ★★★
 {+block{https://github.com/AdguardTeam/AdguardFilters/issues/209205}}
@@ -1151,7 +1150,6 @@ look-like-star.myshopify.com/
 .replicarolexyachtmaster.com/
 .tromselementbygg.no/
 ultimate-tech-products.myshopify.com/
-.norskposten.com/
 .oslo-tannlegene.no/
 .y6.no/
 .havfruen4220.dk/
@@ -1171,13 +1169,7 @@ ultimate-tech-products.myshopify.com/
 s.free.fr/
 trmff.wpengine.com/
 212.27.60.108
-.790northsierrabonita.com/
 dnnbcorporat*.mine.nu/
-eltlnorsgogle.is-a-cpa.com/
-.pestseminars.com/
-.premosupplements.com/
-.printablemagic.com/
-.rumendia.com/
 94.156.65.204
 {+block{https://github.com/DandelionSprout/adfilt/discussions/932#discussioncomment-9075749}}
 # 🇳🇴：Som nevnt i diverse nyhetsartikler om svindelsider
@@ -1225,7 +1217,6 @@ eltlnorsgogle.is-a-cpa.com/
 signup-*vpns.com/
 {+block{https://www•datahjelperne•no/telenor-din-faktura-mislyktes-svindel/}}
 {+block{https://www•datahjelperne•no/eurocard-falsk-epost-faktura/}}
-{+block{https://www•datahjelperne•no/eika-falsk-epost-svindel/}}
 {+block{https://www•nrk•no/norge/1.15235615}}
 {+block{https://www•datahjelperne•no/er-det-deg-facebook-video-spam/}}
 .cinefique.com/
@@ -1236,8 +1227,6 @@ signup-*vpns.com/
 .nordeninterior.weebly.com/
 # Googling Aksel Hennie (Results for prior week) in late July 2021
 # Various Google results for 'jesper buch bitcoin'
-{+block{https://www•nrk•no/vestfoldogtelemark/1.15750360}}
-.dundeehills.group/
 {+block{https://www•adressa•no/pluss/nyheter/2021/12/04/Posten-advarer-Vi-sender-ikke-slike-tekstmeldinger-24894483.ece}}
 .ozarkvillage.net/
 {+block{https://www•vi•no/forbruker/ikke-trykk-pa-lenka-fra-skatteetaten/75666026}}
@@ -1256,10 +1245,7 @@ signup-*vpns.com/
 .sitey.me/
 {+block{https://www•tv2•no/nyheter/innenriks/olav-thon-misbrukes-i-svindelannonser-ble-feilaktig-meldt-dod/15818647/}}
 {+block{https://www•tv2•no/nyheter/innenriks/advarer-ikke-klikk-pa-lenken/16040614/}}
-.dhl-trackng.com/
 dnb-oppdater.
-.linkednordersalenavigate.com/
-.start-myaltinn.com/
 .no-oppdatere.
 179.43.189.62
 {+block{https://github.com/DandelionSprout/adfilt/discussions/932#discussioncomment-7694946}}
@@ -1287,16 +1273,12 @@ easypark-
 .betzykrisesenter.no/
 .citra2010oslo.no/
 .digiter.no/
-.easydisplay.no/
 .kjaerra.no/
 .kontrast1.no/
 .norskmatkultur.no/
-.norskoffroadteknikk.no/
 .nyematoghelse.no/
 .securmarksykkel.no/
-.thecoolgirl.no/
 .topshineauto.no/
-.vossblues.no/
 .yttersiden.no/
 {+block{https://github.com/DandelionSprout/adfilt/discussions/932#discussioncomment-7873648}}
 monetrizer*.
@@ -1304,33 +1286,24 @@ monetrizer*.
 {+block{https://sol•no/81812194/ / https://github.com/DandelionSprout/adfilt/discussions/932#discussioncomment-10360231}}
 .acc-inf.com/
 .acc-ntfix.com/
-.aib-loginsecure.com/
 .be-sms.com/
 .connection-info.com/
-.directdigital-services.com/
 .disneyplus-tv.com/
 .earnifi-claiming.com/
 .flix-area.com/
 .flix-request.com/
-.levering-myups.com/
 .lnfoskonto.com/
-.mitld-forholdsregler.com/
 .my-subscriptions.net/
 .myups-pakket.com/
 .myups.express/
 .netfx-acc.com/
 .ney-acc.com/
-.nflix-management.com/
-.nflix-reactivacion.com/
 .ntfx-acc.com/
 .payement-renew.me/
-.santandersecurept.com/
-.spotfy-regulation.com/
 .trackingfindups.com/
 .trackingpackage.express/
 .ups-packaging.delivery/
 .upsbezahlung.com/
-.usaa-verify.com/
 193.143.1.45
 193.143.1.214
 193.143.1.217
@@ -1346,13 +1319,10 @@ tachyoniums.eu.com/
 {+block}
 .storage.googleapis.com/absales
 healtheweb.co.uk/
-.appearspacex.de/
 195-242-152-122.static.hvvc.us/
 195.242.152.122
 .statautos.com/
 /noo/taxx/*
-{+block{https://www•tv2•no/nyheter/forbruker/sjokksvar-pa-epost-harreisende/17805239/}}
-{+block{https://www•tv2•no/nyheter/forbruker/tenkte-shit-na-har-jeg-blitt-lurt/17474448/}}
 {+block{https://www•tv2•no/nyheter/innenriks/slar-svindelalarm-trykker-pa-de-riktige-knappene/17975382/}}
 {+block{https://www.tv2.no/nyheter/innenriks/raser-mot-nettside-laget-for-a-lure-folk/17976442/}}
 # Sø(k|g)eresultater på Qwant
@@ -1364,10 +1334,6 @@ healtheweb.co.uk/
 5.39.221.180
 193.148.70.153
 {+block{https://www•dr•dk/nyheder/seneste/sundhed-dk-advarer-mod-sms-er-og-falsk-hjemmeside (30/09/2025)}}
-.sundhed-info.com/
-.sundhedinfo.com/
-.info-sundhed.com/
-.infopostdk.com/
 158.94.209.89
 # Inspired by https://nyheder•tv2•dk/samfund/2025-10-23-sundheddk-faar-hundreder-af-henvendelser-om-falske-smser
 {+block{https://www•nrk•no/sorlandet/1•17739914 (27/01/2026)}}
@@ -1382,14 +1348,12 @@ altinnnorge.
 altinnskatteetaten.
 finn-no-n.
 finnobrukerlogg.
-.helse-norge.com/
 minside-altinn.
 /https://autopass\.\d{6}\.com(/.*)?$/
 147.45.198.199
 16.170.34.33
 43.160.248.24
 {+block{https://www•tjekdet•dk/fup-og-spam/pas-paa-falske-beskeder-fra-dao-rammer-danmark}}
-.as-dao.icu/
 .dao-as.cc/
 .dao-as.com/
 .dao-as.top/
@@ -1398,43 +1362,16 @@ minside-altinn.
 .dao-ascu.top/
 .dao-asdk.cc/
 .dao-asdk.vip/
-.dao-ase.cc/
 .dao-ase.vip/
-.dao-asen.bond/
-.dao-asi.cc/
 .dao-asi.vip/
-.dao-asiiv.icu/
-.dao-asioiiv.icu/
 .dao-asl.vip/
 .dao-aso.cc/
-.dao-asoi.icu/
-.dao-asoiiv.icu/
 .dao-asr.cc/
 .dao-asr.vip/
 .dao-ass.cc/
 .dao-ass.vip/
-.dao-assion.icu/
-.dao-asuui.icu/
-.dao-asvisu.icu/
-.dao-post.icu/
-.daoao.icu/
-.daoas-en.bond/
-.daoasa.cyou/
-.daoasa.sbs/
-.daoiiox.icu/
-.daoios.icu/
-.daoipost.icu/
-.daonevt.com/
-.daoosi.icu/
-.daopakke.sbs/
-.daopst.icu/
-.daosa.cyou/
-.daosa.shop/
-.daosviz.com/
 .daoteams.com/
-.daovisx.com/
 .daoxo.bond/
-.dpd-sio.icu/
 .pakke.click/
 .postuin.bond/
 .daobo.bond/
@@ -1449,28 +1386,14 @@ minside-altinn.
 # 🇬🇧：Fake online pharmacies
 # 🇬🇧：Old domains stolen by casino sites
 # 🇬🇧：Various postal credential fraud syndicates
-.norgeposten.today/
-.pakkeposten.today/
-.post-dk.cfd/
 post-nord-levering.
 post-nord-receiving.
 posten-nno.
 posten-tracks.
-.postendk.lol/
-.postendsk.lat/
 postenn-no.
-.postennorge.today/
-.postenpakke.today/
-.postenserves.today/
-.postenspor.today/
-.postnord-24.site/
 postnord-all.
 postnord-confirmation.
 postnord-delay.
-.postnord-eco.buzz/
-.postnord-eco.cfd/
-.postnord-eco.sbs/
-.postnord-eco.xyz/
 postnord-order-
 postnord-paket.
 postnord-pay.
@@ -1480,14 +1403,11 @@ postnord-step.
 postnord-step1.
 postnord-tk.
 postnord-tracks.
-.postnord-update.help/
 postnorde-swe.
 postnordexpress.
 postnordexpressdelivery-
-.postnordse.asia/
 postnordspara.
 postnorg-dk*
-.sporposten.today/
 43.100.125.58
 43.159.140.215
 43.162.119.45
@@ -1496,14 +1416,8 @@ postnorg-dk*
 147.93.63.211
 154.223.16.232
 196.251.85.197
-.dkdk.shop/
-.noapp.sbs/
 .nono.qpon/
-.postnorddk.vip/
-.tnord.click/
 .tnord.qpon/
-.tnord.sbs/
-.tnordh.shop/
 # 🇬🇧：Copied over from DNS-BH Malware Domains and verified to actually be malicious (as that list has a whole lot of false positives)
 .desidert.no/
 .storustovu.dk/

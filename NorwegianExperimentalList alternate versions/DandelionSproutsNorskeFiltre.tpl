@@ -1,6 +1,6 @@
 ﻿﻿! Title: 🏔️ Dandelion Sprouts nordiske filtre for ryddigere nettsider
 # Title 🇬🇧: Dandelion Sprout's Nordic filters for tidier websites
-# Last modified: 02July2026v1-Deprecated
+# Last modified: 25August2026v1-Deprecated
 : expires = 18 hours
 # Lisens   Licence: https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
 # Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
@@ -39,16 +39,13 @@
 - auglysing
 - auglysingar
 - vefauglysingar
--d ad.shareholders.dk
 -d adext.inkclub.com
 -d adnordics.com
--d adserver.xh.no
 -d adservice.com
 -d adservicemedia.dk
 -d banner.3loops.com
 -d betterbanners.org
 -d bilborsen.webannonse.no
--d boligkanalen-maestro-new.azurewebsites.net
 -d cluster.chart.dk
 -d delivered-by-madington.com
 -d easy-ad.no
@@ -61,7 +58,6 @@
 -d matriell.dm-storage.no
 -d ndstage.wpengine.com
 -d openad.visir.is
--d samfilm.codelab.is
 -d sannsyn.com
 -d static.airserve.net
 -d tankeogteknikk.no
@@ -468,6 +464,7 @@
 -d travelnews.no 20*400x400.gif
 -d travelnews.no 20*_Banner_*.gif
 -d travelnews.no hertz.png
+-d tronderporten.no 1450mmx350mm
 # — — — — — — —
 # 🇳🇴：Filtjener- eller nettstedsspesifikke oppføringer med kilder
 # 🇳🇴🏞：Filtenar- eller nettstadsspesifikke oppføringar med kildar
@@ -777,9 +774,10 @@
 +d sp-prod.net
 # ★★★ Caused by «Peter Lowe's Ad and tracking server list» ★★★
 # ★★★ Caused by «Dan Pollock's hosts file» ★★★
-# ★★★ Caused by «AdGuard Cookie Notices filter» ★★★
+# ★★★ Forårsaket av   Caused by «AdGuard Cookie Notices filter» ★★★
 # Made most thumbnails blurry (08 03 2026)
 @@:  consent.cookiebot.com
+# https://github.com/AdguardTeam/AdguardFilters/issues/235302/(10/07/2026)
 # ★★★ 🇳🇴：Forårsaket av «AdGuards spionvarefilter» ★★★
 # ★★★ 🇬🇧：Caused by «AdGuard Tracking Protection Filter» ★★★
 # https://github.com/AdguardTeam/AdguardFilters/issues/209205
@@ -877,16 +875,12 @@
 -d tromselementbygg.no
 -d ultimate-tech-products.myshopify.com
 -d vipps-sikkerhet.
--d norskposten.com
 -d oslo-tannlegene.no
 -d y6.no
 -d havfruen4220.dk
 -d bankid-sperret.
 -d srilanka.no
--d logg-inn.online
--d nyhetsnett.no
 -d comoutlook.com
--d onlinemailmicrosotfvalidation.com
 -d skatteetate-n.
 -d skatteetatei.
 -d skatteetaten-altinn.
@@ -897,22 +891,10 @@
 -d skatteetaten-porten.
 -d skatteetaten-refusjon.
 -d skatteetaten-skatteetaten.
--d skatteetaten-support.com
 -d skatteetaten-tax.
--d skatteetaten.app
--d skatteetaten.ceo
--d skatteetaten.cfd
--d skatteetaten.do
 -d skatteetaten.info.gf
--d skatteetaten.online
--d skatteetaten.pages.dev
--d skatteetaten.rianicefe.com
 -d skatteetaten.sharefile.eu
--d skatteetaten.site
--d skatteetaten.support
--d skatteetaten.support.do
 -d skatteetaten.sytes.net
--d skatteetaten.top
 -d skatteetatenadministration.
 -d skatteetatenaltinninformasjon.
 -d skatteetatencomp.
@@ -929,7 +911,6 @@
 -d skatteetatentax.
 -d skatteetatentracks.
 -d skatteetatn-person.
--d skatteetatten.com
 - ?finn.no login
 # 🇬🇧：Copied over from «Dandelion Sprout's Anti-Malware List»
 -d fredfiber.no
@@ -941,28 +922,12 @@
 -d galerijajava.ba
 -d p-stn.net
 # Fake Gymshark webshops
--d altrasgshoes.com
--d altrask.com
--d gantnorge.com
--d gymshark-no.com
--d xn--gymsharkklrnorge-3ob.com
--d hilfigerdenmark.com
--d louboutinnorge.com
--d montec-danmark.com
 -d umbrodk.com
--d umbrono.com
--d underarmourdk.com
 # E-mail tips
 -d s.free.fr
 -d trmff.wpengine.com
 :  212.27.60.108
--d 790northsierrabonita.com
 -d dnnbcorporat*.mine.nu
--d eltlnorsgogle.is-a-cpa.com
--d pestseminars.com
--d premosupplements.com
--d printablemagic.com
--d rumendia.com
 :  94.156.65.204
 # https://github.com/DandelionSprout/adfilt/discussions/932#discussioncomment-9075749
 # 🇳🇴：Som nevnt i diverse nyhetsartikler om svindelsider
@@ -1028,8 +993,6 @@
 # https://www•datahjelperne•no/telenor-din-faktura-mislyktes-svindel/
 # https://www•datahjelperne•no/eurocard-falsk-epost-faktura/
 -d valspe.com.br
-# https://www•datahjelperne•no/eika-falsk-epost-svindel/
--d tekuon.com
 # https://www•nrk•no/norge/1.15235615
 - -sparebank1.*.net
 # https://www•datahjelperne•no/er-det-deg-facebook-video-spam/
@@ -1046,8 +1009,6 @@
 -d superbinvest.com
 -d aktienboard.com
 -d minklubshop.dk dk
-# https://www•nrk•no/vestfoldogtelemark/1.15750360
--d dundeehills.group
 # https://www•adressa•no/pluss/nyheter/2021/12/04/Posten-advarer-Vi-sender-ikke-slike-tekstmeldinger-24894483.ece
 -d ozarkvillage.net
 # https://www•vi•no/forbruker/ikke-trykk-pa-lenka-fra-skatteetaten/75666026
@@ -1065,30 +1026,18 @@
 -d minklarna.
 # https://github.com/DandelionSprout/adfilt/issues/747
 - -norge.co.no
--d haglofstilbud.com
--d off-whitenorge.com
 -d oofosnorgeoutlet.com
--d eccoskonorge.com
--d clarksskonorge.com
--d off-whitedanmark.com
 -d clarks-dk.com
 # https://github.com/DandelionSprout/adfilt/issues/748
--d vanssnorge.com
 -d hokaonenorge.com
--d hokanorgeno.com
 -d hunter-danmark.com
--d saucony-dk.com
--d hokaskooutlet.co.no
 - (https?:  )?hokaoneone[a-z0-9].*
 # https://www•adressa•no/nyheter/trondheim/i/Moq2wR/svindlere-kaarer-vinnere-i-konkurranser-gir-en-daarlig-foelelse-aa-forklare-at-dette-bare-er-tull
 # https://www•adressa•no/nyheter/trondheim/i/69d3lL/spisesteder-rammet-det-er-forferdelig-jeg-fikk-panikk
 -d sitey.me
 # https://www•tv2•no/nyheter/innenriks/olav-thon-misbrukes-i-svindelannonser-ble-feilaktig-meldt-dod/15818647/
 # https://www•tv2•no/nyheter/innenriks/advarer-ikke-klikk-pa-lenken/16040614/
--d dhl-trackng.com
 -d dnb-oppdater.
--d linkednordersalenavigate.com
--d start-myaltinn.com
 -d no-forny*
 -d my-altinn*
 -d no-oppdatere.
@@ -1119,16 +1068,12 @@
 -d betzykrisesenter.no
 -d citra2010oslo.no
 -d digiter.no
--d easydisplay.no
 -d kjaerra.no
 -d kontrast1.no
 -d norskmatkultur.no
--d norskoffroadteknikk.no
 -d nyematoghelse.no
 -d securmarksykkel.no
--d thecoolgirl.no
 -d topshineauto.no
--d vossblues.no
 -d yttersiden.no
 # https://github.com/DandelionSprout/adfilt/discussions/932#discussioncomment-7873648
 -d monetrizer*.
@@ -1136,39 +1081,29 @@
 # https://sol•no/81812194////https://github.com/DandelionSprout/adfilt/discussions/932#discussioncomment-10360231
 -d acc-inf.com
 -d acc-ntfix.com
--d aib-loginsecure.com
 -d be-sms.com
 -d connection-info.com
--d directdigital-services.com
 -d disneyplus-tv.com
 -d earnifi-claiming.com
 -d flix-area.com
 -d flix-request.com
--d levering-myups.com
 -d lnfoskonto.com
--d mitld-forholdsregler.com
 -d my-subscriptions.net
 -d myups-pakket.com
 -d myups.express
 -d netfx-acc.com
 -d ney-acc.com
--d nflix-management.com
--d nflix-reactivacion.com
 -d ntfx-acc.com
 -d payement-renew.me
--d santandersecurept.com
--d spotfy-regulation.com
 -d trackingfindups.com
 -d trackingpackage.express
 -d ups-packaging.delivery
 -d upsbezahlung.com
--d usaa-verify.com
 :  193.143.1.45
 :  193.143.1.214
 :  193.143.1.217
 :  193.143.1.
 -d adidasko.com
--d daradis.com
 -d gsport.com
 -d hernoclothing.com
 -d linkshe.com
@@ -1178,7 +1113,6 @@
 -d oflike.com
 -d pjs.outlet.com
 -d popeurope.com
--d um-bs.com
 :  old.sermitsiaq.ag
 :  robot.ekstrabladet.dk
 -d xss.my.id
@@ -1191,26 +1125,20 @@
 -d tachyoniums.eu.com
 -d storage.googleapis.com absales
 -d healtheweb.co.uk
--d appearspacex.de
 -d 195-242-152-122.static.hvvc.us
 -d 195.242.152.122
 -d statautos.com
 - noo taxx
-# https://www•tv2•no/nyheter/forbruker/sjokksvar-pa-epost-harreisende/17805239/
-# https://www•tv2•no/nyheter/forbruker/tenkte-shit-na-har-jeg-blitt-lurt/17474448/
--d takstskolen.no
 # https://www•tv2•no/nyheter/innenriks/slar-svindelalarm-trykker-pa-de-riktige-knappene/17975382/
 -d minid-portalen.
 -d idportal.vercel.app
 -d kredinor-portal.
--d minskat-no.com
 -d myskatteetaten.
 -d nav-innlogging-portal.
 -d noskatteetaten.
 -d nyskatteetaten.
 -d skatteetateneu.
 -d skatteetatenof.
--d updatesysteme.com
 -d wpenginepowered.com refusjon*
 -d wpenginepowered.com Skatteetaten
 - com sikkerskatt refusjon
@@ -1236,25 +1164,14 @@
 :  5.39.221.180
 :  193.148.70.153
 # https://www•dr•dk/nyheder/seneste/sundhed-dk-advarer-mod-sms-er-og-falsk-hjemmeside/(30/09/2025)
--d sundhed-info.com
--d sundhedinfo.com
--d info-sundhed.com
--d infopostdk.com
 -d 158.94.209.89
 # Inspired by https://nyheder•tv2•dk/samfund/2025-10-23-sundheddk-faar-hundreder-af-henvendelser-om-falske-smser
--d borger-sundhed.com
 -d dlssneykonto.com
 -d infos-sundhed.com
--d infosundhed.com
--d infosundheds.com
--d sikkerklientopdatering.com
--d skat-skts-dk.com
 -d sporpakke-dk.com
 -d sundhed-infos.com
 -d sundhed-skort.com
--d sundhed-web.com
 -d dk-fornysundhed.com
--d dk-sundhed.com
 -d dksundhed.com
 -d sundhed-infodk.com
 -d 158.94.209.86
@@ -1274,13 +1191,11 @@
 -d altinnskatteetaten.
 -d finn-no-n.
 -d finnobrukerlogg.
--d helse-norge.com
 -d minside-altinn.
 :  147.45.198.199
 :  16.170.34.33
 :  43.160.248.24
 # https://www•tjekdet•dk/fup-og-spam/pas-paa-falske-beskeder-fra-dao-rammer-danmark
--d as-dao.icu
 -d dao-as.cc
 -d dao-as.com
 -d dao-as.top
@@ -1289,43 +1204,16 @@
 -d dao-ascu.top
 -d dao-asdk.cc
 -d dao-asdk.vip
--d dao-ase.cc
 -d dao-ase.vip
--d dao-asen.bond
--d dao-asi.cc
 -d dao-asi.vip
--d dao-asiiv.icu
--d dao-asioiiv.icu
 -d dao-asl.vip
 -d dao-aso.cc
--d dao-asoi.icu
--d dao-asoiiv.icu
 -d dao-asr.cc
 -d dao-asr.vip
 -d dao-ass.cc
 -d dao-ass.vip
--d dao-assion.icu
--d dao-asuui.icu
--d dao-asvisu.icu
--d dao-post.icu
--d daoao.icu
--d daoas-en.bond
--d daoasa.cyou
--d daoasa.sbs
--d daoiiox.icu
--d daoios.icu
--d daoipost.icu
--d daonevt.com
--d daoosi.icu
--d daopakke.sbs
--d daopst.icu
--d daosa.cyou
--d daosa.shop
--d daosviz.com
 -d daoteams.com
--d daovisx.com
 -d daoxo.bond
--d dpd-sio.icu
 -d pakke.click
 -d postuin.bond
 -d daobo.bond
@@ -1345,29 +1233,14 @@
 -d xanax*.over-blog.com
 # 🇬🇧：Old domains stolen by casino sites
 -d informationer.nu
--d cphspaogwellness.dk
 -d webavisen.gl
 # 🇬🇧：Various postal credential fraud syndicates
--d norgeposten.today
--d pakkeposten.today
--d post-dk.cfd
 -d post-nord-levering.
 -d post-nord-receiving.
 -d posten-tracks.
--d postendk.lol
--d postendsk.lat
--d postennorge.today
--d postenpakke.today
--d postenserves.today
--d postenspor.today
--d postnord-24.site
 -d postnord-all.
 -d postnord-confirmation.
 -d postnord-delay.
--d postnord-eco.buzz
--d postnord-eco.cfd
--d postnord-eco.sbs
--d postnord-eco.xyz
 -d postnord-order-
 -d postnord-paket.
 -d postnord-pay.
@@ -1376,14 +1249,11 @@
 -d postnord-step.
 -d postnord-step1.
 -d postnord-tracks.
--d postnord-update.help
 -d postnorde-swe.
 -d postnordexpress.
 -d postnordexpressdelivery-
--d postnordse.asia
 -d postnordspara.
 -d postnorg-dk*
--d sporposten.today
 -d 43.100.125.58
 -d 43.159.140.215
 -d 43.162.119.45
@@ -1392,14 +1262,8 @@
 -d 147.93.63.211
 -d 154.223.16.232
 -d 196.251.85.197
--d dkdk.shop
--d noapp.sbs
 -d nono.qpon
--d postnorddk.vip
--d tnord.click
 -d tnord.qpon
--d tnord.sbs
--d tnordh.shop
 # 🇬🇧：Copied over from DNS-BH Malware Domains and verified to actually be malicious (as that list has a whole lot of false positives)
 -d desidert.no
 -d storustovu.dk

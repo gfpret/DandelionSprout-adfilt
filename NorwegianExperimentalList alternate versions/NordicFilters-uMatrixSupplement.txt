@@ -1,6 +1,6 @@
 ﻿﻿! Title: 🏔️ Dandelion Sprouts nordiske filtre for ryddigere nettsider (uMatrix-regler til å benytte sammen med domeneversjonen)
 ! Title 🇬🇧: Dandelion Sprout's Nordic filters for tidier websites (uMatrix rules to use together with the raw domains version)
-! Last modified: 02July2026v1-Deprecated
+! Last modified: 25August2026v1-Deprecated
 ! Lisens / Licence: https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 ! 🇳🇴：Denne listen dekker nettsteder for Norge, Danmark, Island, Færøyene, Grønland, Schleswig-Holsteins danske minoritet, og samebefolkningen. For mere informasjon, detaljer, hjelpemidler, og andre lister jeg har laget, gå til https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#norsk
@@ -25,11 +25,9 @@ klikk.no widgets.sprinklecontent.com * block
 ! 🇳🇴：Brede eller heldomenebaserte blokkeringsoppføringer
 ! 🇬🇧：Broad or whole-domain blocking rules
 third-party adnordics.com * block
-third-party adserver.xh.no * block
 third-party adservice.com * block
 third-party adservicemedia.dk * block
 third-party betterbanners.org * block
-* boligkanalen-maestro-new.azurewebsites.net image block
 third-party cluster.chart.dk * block
 third-party delivered-by-madington.com * block
 third-party easy-ad.no * block
@@ -42,7 +40,6 @@ third-party kynning.olis.is * block
 third-party matriell.dm-storage.no image block
 * ndstage.wpengine.com image block
 third-party openad.visir.is * block
-third-party samfilm.codelab.is * block
 third-party sannsyn.com * block
 third-party static.airserve.net * block
 third-party tankeogteknikk.no * block
@@ -144,7 +141,7 @@ ekstrabladet.dk sp-prod.net xhr allow
 @@://haslundalsted.dk^$1p
 @@://mettelindberg.dk^$1p
 @@://nhn.dk^$1p
-! ★★★ Caused by «AdGuard Cookie Notices filter» ★★★
+! ★★★ Forårsaket av / Caused by «AdGuard Cookie Notices filter» ★★★
 ! Made most thumbnails blurry (08/03/2026)
 @@://consent.cookiebot.com^$script,domain=politiken.dk
 ! ★★★ 🇳🇴：Forårsaket av «AdGuards spionvarefilter» ★★★
@@ -194,10 +191,7 @@ itavisen.no sixscissors.com 3p allow
 ://92.42.104.146^
 en-svindelside-som-ikke-er-itunes-eller-apple.* itunesconnect-*.no * allow
 en-falsk-banksvindel.* bankid-sperret. all allow
-en-falsk-svindelside.* logg-inn.online all allow
-en-falsk-svindelside.* nyhetsnett.no all allow
 no|~svindelside_som_ikke_er_skatteetaten.* comoutlook.com all allow
-no|~svindelside_som_ikke_er_skatteetaten.* onlinemailmicrosotfvalidation.com all allow
 no|~svindelside_som_ikke_er_skatteetaten.* skatteetate-n. all allow
 no|~svindelside_som_ikke_er_skatteetaten.* skatteetateennoo. all allow
 no|~svindelside_som_ikke_er_skatteetaten.* skatteetatei. all allow
@@ -210,23 +204,11 @@ no|~svindelside_som_ikke_er_skatteetaten.* skatteetaten-norway. all allow
 no|~svindelside_som_ikke_er_skatteetaten.* skatteetaten-porten. all allow
 no|~svindelside_som_ikke_er_skatteetaten.* skatteetaten-refusjon. all allow
 no|~svindelside_som_ikke_er_skatteetaten.* skatteetaten-skatteetaten. all allow
-no|~svindelside_som_ikke_er_skatteetaten.* skatteetaten-support.com all allow
 no|~svindelside_som_ikke_er_skatteetaten.* skatteetaten-tax. all allow
 no|~svindelside_som_ikke_er_skatteetaten.* skatteetaten-track. all allow
-no|~svindelside_som_ikke_er_skatteetaten.* skatteetaten.app all allow
-no|~svindelside_som_ikke_er_skatteetaten.* skatteetaten.ceo all allow
-no|~svindelside_som_ikke_er_skatteetaten.* skatteetaten.cfd all allow
-no|~svindelside_som_ikke_er_skatteetaten.* skatteetaten.do all allow
 no|~svindelside_som_ikke_er_skatteetaten.* skatteetaten.info.gf all allow
-no|~svindelside_som_ikke_er_skatteetaten.* skatteetaten.online all allow
-no|~svindelside_som_ikke_er_skatteetaten.* skatteetaten.pages.dev all allow
-no|~svindelside_som_ikke_er_skatteetaten.* skatteetaten.rianicefe.com all allow
 no|~svindelside_som_ikke_er_skatteetaten.* skatteetaten.sharefile.eu all allow
-no|~svindelside_som_ikke_er_skatteetaten.* skatteetaten.site all allow
-no|~svindelside_som_ikke_er_skatteetaten.* skatteetaten.support all allow
-no|~svindelside_som_ikke_er_skatteetaten.* skatteetaten.support.do all allow
 no|~svindelside_som_ikke_er_skatteetaten.* skatteetaten.sytes.net all allow
-no|~svindelside_som_ikke_er_skatteetaten.* skatteetaten.top all allow
 no|~svindelside_som_ikke_er_skatteetaten.* skatteetatenadministration. all allow
 no|~svindelside_som_ikke_er_skatteetaten.* skatteetatenaltinninformasjon. all allow
 no|~svindelside_som_ikke_er_skatteetaten.* skatteetatencomp. all allow
@@ -248,21 +230,10 @@ no|~svindelside_som_ikke_er_skatteetaten.* skatteetatentrack. all allow
 no|~svindelside_som_ikke_er_skatteetaten.* skatteetatentrackpro. all allow
 no|~svindelside_som_ikke_er_skatteetaten.* skatteetatentracks. all allow
 no|~svindelside_som_ikke_er_skatteetaten.* skatteetatn-person. all allow
-no|~svindelside_som_ikke_er_skatteetaten.* skatteetatten.com all allow
 ! 🇬🇧：Copied over from «Dandelion Sprout's Anti-Malware List»
 ! 🇬🇧：Scam domains as reported in https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-988127908
 ! Fake Gymshark webshops
-en-falsk-svindelbutikk.* altrasgshoes.com all,~inline-font allow
-en-falsk-svindelbutikk.* altrask.com all,~inline-font allow
-en-falsk-svindelbutikk.* gantnorge.com all,~inline-font allow
-en-falsk-svindelbutikk.* gymshark-no.com all,~inline-font allow
-en-falsk-svindelbutikk.* xn--gymsharkklrnorge-3ob.com all,~inline-font allow
-en-falsk-svindelbutikk.* hilfigerdenmark.com all,~inline-font allow
-en-falsk-svindelbutikk.* louboutinnorge.com all,~inline-font allow
-en-falsk-svindelbutik.* montec-danmark.com all,~inline-font allow
 en-falsk-svindelbutik.* umbrodk.com all,~inline-font allow
-en-falsk-svindelbutikk.* umbrono.com all,~inline-font allow
-en-falsk-svindelbutik.* underarmourdk.com all,~inline-font allow
 ! E-mail tips
 ! 🇳🇴：Som nevnt i diverse nyhetsartikler om svindelsider
 ! 🇩🇰：Som nævnt i diverse nyhedsartikler om fupwebsider
@@ -275,20 +246,11 @@ en-falsk-bitcoin-svindel.* superbinvest.com doc,popup allow
 en-falsk-bitcoin-svindel.* aktienboard.com doc,popup allow
 no|~se minklarna. doc,popup allow
 dk minklarna. doc,popup allow
-en-falsk-svindelbutikk.* haglofstilbud.com all allow
-en-falsk-svindelbutikk.* off-whitenorge.com all allow
 en-falsk-svindelbutikk.* oofosnorgeoutlet.com all allow
-en-falsk-svindelbutikk.* eccoskonorge.com all allow
-en-falsk-svindelbutikk.* clarksskonorge.com all allow
-en-falsk-svindelbutik.* off-whitedanmark.com all allow
 en-falsk-svindelbutik.* clarks-dk.com all allow
-en-falsk-svindelbutikk.* vanssnorge.com all allow
 en-falsk-svindelbutikk.* hokaonenorge.com all allow
 en-falsk-svindelbutikk.* hokalopesko. all allow
-en-falsk-svindelbutikk.* hokanorgeno.com all allow
 en-falsk-svindelbutik.* hunter-danmark.com all allow
-en-falsk-svindelbutik.* saucony-dk.com all allow
-en-falsk-svindelbutikk.* hokaskooutlet.co.no all allow
 no no-forny* all allow
 no my-altinn* all allow
 no no-oppdatert. all allow
@@ -317,7 +279,6 @@ no no-oppdatert. all allow
 no|~bankid_svindlere.* minid-portalen. all allow
 bankid_svindlere.* idportal.vercel.app all allow
 no|~bankid_svindlere.* kredinor-portal. all allow
-bankid_svindlere.* minskat-no.com all allow
 no|~bankid_svindlere.* myskatteetaten. all allow
 no|~bankid_svindlere.* nav-innlogging-portal. all allow
 no|~bankid_svindlere.* norwegianautopaskonto. all allow
@@ -326,7 +287,6 @@ no|~bankid_svindlere.* nyskatteetaten. all allow
 no|~bankid_svindlere.* skatteetateneu. all allow
 no|~bankid_svindlere.* skatteetatenof. all allow
 no|~bankid_svindlere.* skattrefusjono. all allow
-bankid_svindlere.* updatesysteme.com all allow
 ! Sø(k|g)eresultater på Qwant
 falsk_version_af_biltema.* biltemadk.com all block
 falsk_version_af_biltema.* biltemasverige.com all block
@@ -342,19 +302,12 @@ falsk_version_af_zooplus.* zooplusdanmark.com all block
 ://5.39.221.180^
 ://193.148.70.153^
 ! Inspired by https://nyheder•tv2•dk/samfund/2025-10-23-sundheddk-faar-hundreder-af-henvendelser-om-falske-smser
-svindelfup.* borger-sundhed.com all allow
 svindelfup.* dlssneykonto.com all allow
 svindelfup.* infos-sundhed.com all allow
-svindelfup.* infosundhed.com all allow
-svindelfup.* infosundheds.com all allow
-svindelfup.* sikkerklientopdatering.com all allow
-svindelfup.* skat-skts-dk.com all allow
 svindelfup.* sporpakke-dk.com all allow
 svindelfup.* sundhed-infos.com all allow
 svindelfup.* sundhed-skort.com all allow
-svindelfup.* sundhed-web.com all allow
 svindelfup.* dk-fornysundhed.com all allow
-svindelfup.* dk-sundhed.com all allow
 svindelfup.* dksundhed.com all allow
 svindelfup.* sundhed-infodk.com all allow
 svindelfup.* 158.94.209.86 all allow
