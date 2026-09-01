@@ -1,5 +1,5 @@
 # Description: Will come in handy when handling Winget stuff without installing spyware. Primarily designed for the Windows system's main Hosts file.
-# Version 18August2026v2-Sandbox
+# Version 01September2026v1-Sandbox
 :: 115.com
 :: 360.cn
 :: 360tpcdn.com
@@ -342,3 +342,13 @@
 :: yzy.gdzwfw.gov.cn
 :: zwdd-zhegnzhou.oss-cn-beijing.aliyuncs.com
 :: zwsoft.cn
+:: cdn.cnbj1.fds.api.mi-img.com
+:: cnbj1.fds.api.mi-img.com
+:: fds.api.mi-img.com
+:: api.mi-img.com
+:: mi-img.com
+:: miuirom.xiaomi.com
+:: xiaomi.com
+:: fds-cnbj1-mcfe-cdn.micloud.xiaomi.net
+:: micloud.xiaomi.net
+:: xiaomi.net
