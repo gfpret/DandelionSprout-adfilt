@@ -1,5 +1,5 @@
 # Description: Will come in handy when handling Winget stuff without installing spyware. Primarily designed for the Windows system's main Hosts file.
-# Version: 03September2026v2-Sandbox
+# Version: 03September2026v3-Sandbox
 :: 115.com
 :: 360.cn
 :: 360tpcdn.com
@@ -358,3 +358,8 @@
 :: res.yunzhijia.com
 :: yunzhijia.com
 :: www.yunzhijia.com
+:: sdt-1314690352.cos.ap-nanjing.myqcloud.com
+:: cos.ap-nanjing.myqcloud.com
+:: ap-nanjing.myqcloud.com
+:: myqcloud.com
+:: www.myqcloud.com
