@@ -1,5 +1,5 @@
 # Description: Will come in handy when handling Winget stuff without installing spyware. Primarily designed for the Windows system's main Hosts file.
-# Version: 04September2026v1-Sandbox
+# Version: 11September2026v1-Sandbox
 :: 115.com
 :: 360.cn
 :: 360tpcdn.com
@@ -369,3 +369,4 @@
 :: download.cubejoy.com
 :: cubejoy.com
 :: www.cubejoy.com
+:: imlizhi-store-https.seewo.com
