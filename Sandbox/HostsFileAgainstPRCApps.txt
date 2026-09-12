@@ -1,5 +1,5 @@
 # Description: Will come in handy when handling Winget stuff without installing spyware. Primarily designed for the Windows system's main Hosts file.
-# Version: 12September2026v1-Sandbox
+# Version: 12September2026v2-Sandbox
 :: 115.com
 :: 360.cn
 :: 360tpcdn.com
@@ -373,3 +373,4 @@
 :: e.seewo.com
 :: oss1.seewo.com
 :: store-g1.seewo.com
+:: dl.61.com
