@@ -1,5 +1,5 @@
 # Description: Will come in handy when handling Winget stuff without installing spyware. Primarily designed for the Windows system's main Hosts file.
-# Version: 12September2026v2-Sandbox
+# Version: 12September2026v3-Sandbox
 :: 115.com
 :: 360.cn
 :: 360tpcdn.com
@@ -389,3 +389,4 @@
 :: updatecdn.meeting.qq.com
 :: upstatic.qiecdn.com
 :: webcdn.m.qq.com
+:: down.sandai.net
